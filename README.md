@@ -1,6 +1,6 @@
 Openbar
 ========
-A PHP Wrapper for BreweryDB's API [BreweryDB](http://www.brewerydb.com/)
+A PHP Wrapper for [BreweryDB's](http://www.brewerydb.com/) API
 ----------------------------------------------------------------
 Description: A PHP wrapper for BreweryDB's API
 
@@ -9,5 +9,5 @@ Description: A PHP wrapper for BreweryDB's API
 * **API Documentation:** [API Docs](http://www.brewerydb.com/)
 
 * **Author:** Kevin Coughlin	<coughli6@tcnj.edu>
-* **Blog:** [Blog](http://kevintcoughlin.github.com)
-* **Portfolio:** [Portfolio](http://github.com/kevintcoughlin)
+* **Blog:** [Link](http://kevintcoughlin.github.com)
+* **Portfolio:** [Link](http://github.com/kevintcoughlin)
