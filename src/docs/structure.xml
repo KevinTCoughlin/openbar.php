@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a3" title="">
+  <file path="Bartender.php" hash="a37515415dfc2ae6556632f835d91916" package="Default">
+    <parse_markers>
+      <error line="37" code="50015">Argument $id is missing from the Docblock of getBeer()</error>
+      <error line="46" code="50015">Argument $id is missing from the Docblock of getBrewery()</error>
+      <error line="55" code="50015">Argument $name is missing from the Docblock of findBeer()</error>
+      <error line="64" code="50015">Argument $name is missing from the Docblock of findBrewery()</error>
+      <error line="1" code="50007">No page-level DocBlock was found in file Bartender.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="10" package="Default">
+      <name>Bartender</name>
+      <full_name>\Bartender</full_name>
+      <extends/>
+      <docblock line="2">
+        <description><![CDATA[PHP Wrapper for BreweryDB API
+	Current BreweryDB API Version = 2.0]]></description>
+        <long-description><![CDATA[@author 	Kevin Coughlin <coughli6@tcnj.edu>]]></long-description>
+        <tag line="2" name="link" description="http://github.com/kevintcoughlin" link="http://github.com/kevintcoughlin"/>
+        <tag line="2" name="version" description="1.0"/>
+        <tag line="2" name="since" description="5/19/12"/>
+      </docblock>
+      <property final="false" static="false" visibility="public" line="15" package="Default">
+        <name>$key</name>
+        <default><![CDATA[""]]></default>
+        <docblock line="12">
+          <description><![CDATA[API Key public variable]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="public" line="19" package="Default">
+        <name>$endpoint</name>
+        <default><![CDATA["http://api.brewerydb.com/v2/"]]></default>
+        <docblock line="16">
+          <description><![CDATA[API HTTP endpoint (Currently version 2.0)]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="24" package="">
+        <name>status</name>
+        <type>function</type>
+        <docblock line="21">
+          <description><![CDATA[Check status of BreweryDB API]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="40" package="">
+        <name>getBeer</name>
+        <type>function</type>
+        <docblock line="37">
+          <description><![CDATA[Get beer based on ID string]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+        <argument line="40">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="49" package="">
+        <name>getBrewery</name>
+        <type>function</type>
+        <docblock line="46">
+          <description><![CDATA[Get brewery based on ID string]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+        <argument line="49">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="58" package="">
+        <name>findBeer</name>
+        <type>function</type>
+        <docblock line="55">
+          <description><![CDATA[Search for beer based on name string]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+        <argument line="58">
+          <name>$name</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="67" package="">
+        <name>findBrewery</name>
+        <type>function</type>
+        <docblock line="64">
+          <description><![CDATA[Search for brewery based on name string]]></description>
+          <long-description><![CDATA[]]></long-description>
+        </docblock>
+        <argument line="67">
+          <name>$name</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <package name="" full_name=""/>
+  <package name="Default" full_name="Default"/>
+  <namespace name="default" full_name="default"/>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>
