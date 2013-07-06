@@ -4,6 +4,12 @@ A PHP Wrapper for [BreweryDB's](http://www.brewerydb.com/) API
 ----------------------------------------------------------------
 *Description: A PHP wrapper for BreweryDB's API*
 
+# Installation
+
+# Testing
+
+# Documentation
+
 * **Openbar current version:** 1.0
 * **BreweryDB API current version:** 2.0
 * **API Documentation:** [API Docs](http://www.brewerydb.com/)
